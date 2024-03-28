@@ -1,3 +1,6 @@
+#GOAL: to find the best classifier to classify correctly diabetics and non-diabetics
+#Dataset is from Kaggle 
+
 b <- read.csv("diabetes_data.csv", sep=","
               , dec = ".",  
               stringsAsFactors=TRUE, na.strings=c("NA","NaN", "", 'NULL'))
